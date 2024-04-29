@@ -7,6 +7,7 @@ function TransactionTable({ transactions }) {
         <tr>
           <th>Date</th>
           <th>Description</th>
+          <th>Category</th>
           <th>Amount</th>
         </tr>
       </thead>
@@ -15,12 +16,8 @@ function TransactionTable({ transactions }) {
           <tr key={transaction.id}>
             <td>{transaction.date}</td>
             <td>{transaction.description}</td>
-            <td className={transaction.amount >= 0 ? 'income' : 'expense'}>
-              {transaction.amount.toLocaleString('en-KE', {
-                style: 'currency',
-                currency: 'KES'
-              })}
-            </td>
+            <td>{transaction.category}</td>
+            <td>Ksh {transaction.amount.toFixed(2)}</td>
           </tr>
         ))}
       </tbody>
@@ -29,3 +26,5 @@ function TransactionTable({ transactions }) {
 }
 
 export default TransactionTable;
+
+

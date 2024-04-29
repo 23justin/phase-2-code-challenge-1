@@ -1,3 +1,4 @@
+/* App.css */
 .App {
   text-align: center;
 }
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +29,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px; /* Add margin to separate table from other content */
+}
+
+th, td {
+  border: 1px solid #282c34; /* Change border color */
+  padding: 8px;
+}
+
+th {
+  background-color: blue;
+  color: white; /* Change text color to contrast with background */
 }

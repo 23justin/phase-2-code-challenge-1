@@ -25,7 +25,7 @@
       "id": 4,
       "date": "2024-04-26",
       "description": "Medical Bills",
-      "amount": 300,
+      "amount": 90000,
       "category": "Healthcare"
     },
     {
@@ -34,6 +34,27 @@
       "description": "Food and Other Essentials",
       "amount": 70000,
       "category": "Groceries"
+    },
+    {
+      "id": 6,
+      "date": "2024-04-24",
+      "description": "Movies",
+      "amount": 5000,
+      "category": "Entertainment"
+    },
+    {
+      "id": 7,
+      "date": "2024-04-23",
+      "description": "Travel to Mombasa",
+      "amount": 300000,
+      "category": "Travel"
+    },
+    {
+      "id": 8,
+      "date": "2024-04-22",
+      "description": "Car Maintenance",
+      "amount": 12000,
+      "category": "Car Services"
     }
   ]
 }
